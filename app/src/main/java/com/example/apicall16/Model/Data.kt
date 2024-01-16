@@ -1,0 +1,31 @@
+package com.example.apicall16.Model
+
+data class Data(
+    val Address: String,
+    val Circle: String,
+    val CivilLiability: Double,
+    val CompoundingFee: Double,
+    val ConsumerName: String,
+    val Division: String,
+    val FinalNotice: String,
+    val FirRequestNo: String,
+    val IsConsumer: Int,
+    val KNo: String,
+    val Lat: Double,
+    val Lng: Double,
+    val Offense: String,
+    val OfficeCode: String,
+    val PasswordUpdatedOn: String,
+    val Proof: List<Proof>,
+    val ProvisionalNotice: String,
+    val RealizationAmount: Double,
+    val RecoveryNotice: String,
+    val Response: String,
+    val SettlementAmount: Double,
+    val Status: Int,
+    val SubDiv: String,
+    val VCRID: Int,
+    val VCRNo: Int,
+    val VcrDate: String,
+    val VcrTime: String
+)
